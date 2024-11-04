@@ -1,0 +1,5 @@
+Course Name,Session type,Attendance-Grade correlation,p-value,Student fail rate,Student absence rate,Average attendance percentage,Average grade,Student count,Classification
+Security 1,practical,0.74,0.0,25.0,0.0,45.75,11.6,19,fair encouraging
+Web Development 2,lecture,0.13,0.55,7.69,3.85,31.27,14.86,25,easy encouraging
+Programming Fundamentals 3,lecture,0.26,0.13,33.33,6.25,25.81,12.01,47,easy encouraging
+Programming Fundamentals 3,practical,0.25,0.13,33.33,6.25,32.69,12.01,47,easy encouraging

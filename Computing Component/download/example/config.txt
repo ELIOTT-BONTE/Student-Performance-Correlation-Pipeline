@@ -1,0 +1,32 @@
+This file lets you define
+
+FOR LOGS : 
+The name of the course (found in the grades file you use),
+the abbreviation associated with it (found in the schedules file), 
+the kind of session you want to analyze (lecture, practical or tutoring) (check the schedule file for the existence of such sessions).
+
+FOR MANUAL ATTENDANCE FILES :
+The name of the course (found in the grades file you use),
+the kind of session you want to analyze (lecture, practical or tutoring) (check the schedule file for the existence of such sessions).
+
+FOR VACATION :
+Any period of time where the courses where not held and should be excluded from analysis.
+
+
+Example :
+
+LOG FILES
+
+Linear Algebra 1, LA1
+Course 1, c1, lecture
+Course 2, c2, lecture
+Course 2, c2, practical
+
+MANUAL ATTENDANCE FILES
+
+Course 3, practical
+
+Input any vacation or period of time where the course was not held here :
+
+
+vacation_periods: [('24/12/2023', '26/12/2023'), ('31/12/2023', '01/01/2024')]
